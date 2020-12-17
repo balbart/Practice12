@@ -14,8 +14,6 @@ import com.google.gson.Gson;
 public class Main {
     public static void main(String[] args) {
         Metro metro = new Metro();
-        metro.stations = new HashMap<>();
-        metro.lines = new ArrayList<>();
         ArrayList<Line> lineArrayList;
         HashMap<Integer, ArrayList<String>> stationsMap;
         Gson gson;
